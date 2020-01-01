@@ -17,7 +17,7 @@ public class Datas2 {
 		Date x1 = new  Date();
 		Date x2 = new Date();
 		
-		System.out.println(std3.format(d));
+		System.out.println("Data Exemplo formato = " + std3.format(d));
 	
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(d);
@@ -28,9 +28,9 @@ public class Datas2 {
 		cal.add(cal.HOUR_OF_DAY, 5);
 		x2 = cal.getTime();
 		
-		System.out.println("Data atualizada = " + std3.format(d) );
-		System.out.println("Data atual  = "+std3.format(x1));
-		System.out.println("Data 5 horas a mais = "+ std3.format(x2));
+		System.out.println("Data atualizada =      " + std3.format(d) );
+		System.out.println("Data atual  =          "+std3.format(x1));
+		System.out.println("Data 5 horas a mais =  "+ std3.format(x2));
 	}
 
 }
